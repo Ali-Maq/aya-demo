@@ -1,0 +1,21 @@
+{
+  "video": {
+    "url": "https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-demo.mp4",
+    "sha256": "a12b6be9aba422698cc4fe6a9e592df327e7de0b9c30da4e6a8f5ec41c8d5bdb",
+    "bytes": 73014201,
+    "duration_seconds": 94,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "description": "Recorded live product screens; timing condensed. Includes actual results and limitations."
+  },
+  "deck": {
+    "url": "https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-MASS-demo.pptx",
+    "sha256": "a76245c8d11bf7da8ad40d6a6f3a3ca91e7a3b52d4b6b991d39af1fc9a0c0f7a"
+  },
+  "captions": {
+    "url": "https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-demo.srt"
+  }
+}

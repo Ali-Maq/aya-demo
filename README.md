@@ -4,7 +4,7 @@
 
 AYA is a software factory built into Onyx. Hermes investigates a reference with REA inside OpenShell, implements a bounded component, and writes tests. Independent checks and CI control delivery. A second loop uses MASS and recorded trajectories to test whether a different workflow is better.
 
-[Demo site](https://ali-maq.github.io/aya-demo/) · [Architecture](ARCHITECTURE.md) · [Quickstart](QUICKSTART.md) · [Actual experiment record](EVIDENCE-LOG.md)
+[Watch the demo](https://ali-maq.github.io/aya-demo/) · [Download video](https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-demo.mp4) · [Slides](https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-MASS-demo.pptx) · [Architecture](ARCHITECTURE.md) · [Quickstart](QUICKSTART.md) · [Actual experiment record](EVIDENCE-LOG.md)
 
 ## Target outcome
 
