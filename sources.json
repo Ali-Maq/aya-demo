@@ -30,5 +30,11 @@
     "license": "CC-BY-SA-4.0",
     "citation": "Yu et al. (2018), Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
     "homepage": "https://yale-lily.github.io/spider"
+  },
+  "presentation_source": {
+    "repository": "https://github.com/Ali-Maq/aya",
+    "commit": "5ea6a4031344a85cd9f720f6cf80ed12b9038f59",
+    "video": "https://github.com/Ali-Maq/aya/tree/5ea6a4031344a85cd9f720f6cf80ed12b9038f59/aya/video",
+    "deck": "https://github.com/Ali-Maq/aya/tree/5ea6a4031344a85cd9f720f6cf80ed12b9038f59/aya/presentation"
   }
 }

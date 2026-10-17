@@ -42,6 +42,8 @@ python3 scripts/verify_evidence.py
 
 This checks artifact hashes and receipt consistency without credentials or API calls. It does not rerun inference. [Quickstart](QUICKSTART.md) explains the configured live environment and reproduction boundaries.
 
+Editable media sources: [Remotion video](https://github.com/Ali-Maq/aya/tree/5ea6a4031344a85cd9f720f6cf80ed12b9038f59/aya/video) and [presentation](https://github.com/Ali-Maq/aya/tree/5ea6a4031344a85cd9f720f6cf80ed12b9038f59/aya/presentation), pinned to `5ea6a403`.
+
 This is the small submission package; implementation histories remain in the linked repositories. [sources.json](sources.json) pins the actual run and publication revisions.
 
 ## Built with
