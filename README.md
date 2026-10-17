@@ -49,6 +49,16 @@ python3 scripts/verify_evidence.py
 
 The verifier checks every published artifact digest and the reported result/selection/training invariants. It makes no API calls and does not rerun inference. See [QUICKSTART.md](QUICKSTART.md) for the configured live environment and reproduction boundaries.
 
+## Future target: cost per validated outcome
+
+The intended business loop is broader than code generation: recover a capability → pass independent quality gates → choose the cheapest passing workflow → run a limited product rollout → measure adoption and willingness to pay → use the evidence to improve the next workflow and roadmap decision.
+
+This is a **future target**, not an observed result. Today the baseline passed 12/12 with one call and 4,544 tokens; the 22-call revision used 68,667 tokens and passed 11/12. More activity did not earn promotion. Dollar costs and customer revenue were not established.
+
+The first proposed metric is **cost per accepted feature**, including implementation, model, compute, review, verification, and failed attempts. A later metric is **total experiment cost per validated paying-customer outcome**, with the qualifying outcome and attribution window declared beforehand. Rollout exposure, pricing, sales, and other product changes must be accounted for before attributing revenue to the factory.
+
+The organization should keep an exportable record of contracts, reference provenance, verified trajectories, failed hypotheses, evaluations, and permitted customer feedback, so knowledge remains useful when model providers change. AYA already preserves source history and sanitized experiment receipts. Customer feedback integration, controlled commercial rollout, and portable operating memory across model changes are future work.
+
 ## Stack and attribution
 
 Crusoe inference and fine-tuning · Onyx frontend · NemoClaw/NemoHermes · Hermes Agent · NVIDIA OpenShell · REA/Ghidra · Sakana AI MASS · Langfuse · GitHub Actions.
