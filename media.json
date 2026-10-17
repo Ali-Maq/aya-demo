@@ -9,11 +9,25 @@
     "fps": 30,
     "video_codec": "H.264",
     "audio_codec": "AAC",
-    "description": "Recorded live product screens; timing condensed. Includes actual results and limitations."
+    "description": "Recorded live product screens; timing condensed. Includes actual results and limitations.",
+    "public_playback_verification": {
+      "status": "verified",
+      "method": "Public watch-page browser playback",
+      "observed_start_seconds": 0.18,
+      "observed_end_seconds": 8.15,
+      "duration_seconds": 94,
+      "paused": false,
+      "muted": false,
+      "ready_state": 4,
+      "media_error": null
+    }
   },
   "deck": {
     "url": "https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-MASS-demo.pptx",
-    "sha256": "a76245c8d11bf7da8ad40d6a6f3a3ca91e7a3b52d4b6b991d39af1fc9a0c0f7a"
+    "sha256": "3e2c3b39d77844ed4b7c5f4b798abc56049a02add700fe2738503aa9788d7033",
+    "bytes": 128622,
+    "slides": 11,
+    "description": "Six target-story slides and five actual-evidence appendices."
   },
   "captions": {
     "url": "https://github.com/Ali-Maq/aya-demo/releases/download/v1.0.0/AYA-demo.srt"
