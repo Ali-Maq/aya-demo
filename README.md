@@ -16,6 +16,8 @@ The second part asks a harder question: **does a more elaborate agent workflow a
 | Agent workflow iteration | Run a direct baseline, two native Hermes workflows, and MASS feedback on a frozen public Spider subset. Store and verify trajectories; select the best available development answers for SFT. | [MASS adapter PR](https://github.com/Ali-Maq/mass/pull/1) |
 | Earlier binary recovery | Investigate the installed jq binary with REA/Ghidra, recover a bounded JSON export component, and integrate it with Open WebUI. | [Merged component PR](https://github.com/Ali-Maq/aya-data-recipes/pull/2) |
 
+The current prototype uses bounded feature contracts. A new domain needs a contract and an independent evaluator before it can be admitted.
+
 The SQL cookbook is source and behavior recovery. The jq example is binary investigation. Neither is a claim to reconstruct an entire arbitrary application.
 
 ## What the real experiment found
